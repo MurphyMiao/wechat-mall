@@ -1,0 +1,27 @@
+.container {
+	height:100vh;
+}
+
+.board-container {
+	width: 100vw;
+	height: 100vh;
+	
+}
+
+.board-container image {
+	width: 100%;
+}
+
+.button-container {
+	position: fixed;
+	bottom: 50rpx;
+	left: 0;
+	display: flex;  
+	justify-content: center;  
+
+}
+
+.button-container button {
+	background-color: #d0021b;
+	
+}

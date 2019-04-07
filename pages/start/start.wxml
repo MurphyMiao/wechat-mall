@@ -1,0 +1,8 @@
+<view class="container">
+	<view class="board-container">
+		<image bindTap="goToIndex" mode="aspectFit" src="{{boardU}}"></image>
+	</view>
+	<view class="button-container">
+		<button class="weui-btn mini-btn" bindTap="goToIndex">进入店铺</button>
+	</view>
+</view>
