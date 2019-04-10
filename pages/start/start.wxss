@@ -16,12 +16,14 @@
 	position: fixed;
 	bottom: 50rpx;
 	left: 0;
-	display: flex;  
-	justify-content: center;  
+	right: 0;
+	text-align: center;  
 
 }
 
 .button-container button {
+	width: 300rpx; 
+	/* height: 14rpx; */
 	background-color: #d0021b;
-	
+	color: #fff;
 }

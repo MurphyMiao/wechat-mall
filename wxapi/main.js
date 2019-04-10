@@ -13,8 +13,9 @@ const request = (url, needSubDomain, method, data) => {
       header: {
         'Content-Type': 'application/x-www-form-urlencoded'
       },
-      success(request) {
-        resolve(request.data)
+      success(res, statusCode, header) {
+				console.log(res, statusCode,header)
+        resolve(res.data)
       },
       fail(error) {
         reject(error)
